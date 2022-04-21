@@ -74,22 +74,18 @@
                                             <router-link :to="{name:'client.home'}">
                                                 <li class="nav-item active"><a class="nav-link">Home</a></li>
                                             </router-link>
-                                            <router-link :to="{name:'client.shop'}">
-                                                <li class="nav-item dropdown">
-                                                    <a class="nav-link dropdown-toggle" id="karlDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
-                                                    <div class="dropdown-menu" aria-labelledby="karlDropdown">
-                                                        <a class="dropdown-item" href="index.html">1</a>
-                                                        <a class="dropdown-item" href="shop.html">2</a>
-                                                        <a class="dropdown-item" href="product-details.html">3</a>
-                                                        <a class="dropdown-item" href="cart.html">4</a>
-                                                        <a class="dropdown-item" href="checkout.html">5</a>
-                                                    </div>
-                                                </li>
-                                            </router-link>
+                                            <router-link :to="{name: 'client.shop'}">
+                                                <li class="nav-item active"><a class="nav-link">Shop</a></li>
+                                            </router-link> 
                                             <router-link :to="{name: 'client.single'}">
-                                                <li class="nav-item active"><a class="nav-link">Shoe</a></li>
+                                                <li class="nav-item active"><a class="nav-link">Single</a></li>
                                             </router-link>
-                                            <li class="nav-item active"><a class="nav-link">Dress</a></li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" id="karlDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Type</a>
+                                                <div class="dropdown-menu" aria-labelledby="karlDropdown">
+                                                    <a class="dropdown-item" href="index.html">1</a>                                                    
+                                                </div>
+                                            </li>
                                             <li class="nav-item active"><a class="nav-link">Contact</a></li>
                                             <li class="nav-item active"><a class="nav-link">About</a></li>
                                         </ul>

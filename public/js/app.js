@@ -5835,10 +5835,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -31659,85 +31655,11 @@ var render = function () {
                                 "router-link",
                                 { attrs: { to: { name: "client.shop" } } },
                                 [
-                                  _c(
-                                    "li",
-                                    { staticClass: "nav-item dropdown" },
-                                    [
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "nav-link dropdown-toggle",
-                                          attrs: {
-                                            id: "karlDropdown",
-                                            role: "button",
-                                            "data-toggle": "dropdown",
-                                            "aria-haspopup": "true",
-                                            "aria-expanded": "false",
-                                          },
-                                        },
-                                        [_vm._v("Shop")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        {
-                                          staticClass: "dropdown-menu",
-                                          attrs: {
-                                            "aria-labelledby": "karlDropdown",
-                                          },
-                                        },
-                                        [
-                                          _c(
-                                            "a",
-                                            {
-                                              staticClass: "dropdown-item",
-                                              attrs: { href: "index.html" },
-                                            },
-                                            [_vm._v("1")]
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "a",
-                                            {
-                                              staticClass: "dropdown-item",
-                                              attrs: { href: "shop.html" },
-                                            },
-                                            [_vm._v("2")]
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "a",
-                                            {
-                                              staticClass: "dropdown-item",
-                                              attrs: {
-                                                href: "product-details.html",
-                                              },
-                                            },
-                                            [_vm._v("3")]
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "a",
-                                            {
-                                              staticClass: "dropdown-item",
-                                              attrs: { href: "cart.html" },
-                                            },
-                                            [_vm._v("4")]
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "a",
-                                            {
-                                              staticClass: "dropdown-item",
-                                              attrs: { href: "checkout.html" },
-                                            },
-                                            [_vm._v("5")]
-                                          ),
-                                        ]
-                                      ),
-                                    ]
-                                  ),
+                                  _c("li", { staticClass: "nav-item active" }, [
+                                    _c("a", { staticClass: "nav-link" }, [
+                                      _vm._v("Shop"),
+                                    ]),
+                                  ]),
                                 ]
                               ),
                               _vm._v(" "),
@@ -31747,7 +31669,7 @@ var render = function () {
                                 [
                                   _c("li", { staticClass: "nav-item active" }, [
                                     _c("a", { staticClass: "nav-link" }, [
-                                      _vm._v("Shoe"),
+                                      _vm._v("Single"),
                                     ]),
                                   ]),
                                 ]
@@ -31998,8 +31920,36 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item active" }, [
-      _c("a", { staticClass: "nav-link" }, [_vm._v("Dress")]),
+    return _c("li", { staticClass: "nav-item dropdown" }, [
+      _c(
+        "a",
+        {
+          staticClass: "nav-link dropdown-toggle",
+          attrs: {
+            id: "karlDropdown",
+            role: "button",
+            "data-toggle": "dropdown",
+            "aria-haspopup": "true",
+            "aria-expanded": "false",
+          },
+        },
+        [_vm._v("Type")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "dropdown-menu",
+          attrs: { "aria-labelledby": "karlDropdown" },
+        },
+        [
+          _c(
+            "a",
+            { staticClass: "dropdown-item", attrs: { href: "index.html" } },
+            [_vm._v("1")]
+          ),
+        ]
+      ),
     ])
   },
   function () {
